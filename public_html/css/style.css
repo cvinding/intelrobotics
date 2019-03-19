@@ -1,0 +1,11 @@
+.banner{
+    width: 100%;
+}
+
+.banner > a > img{
+    width: 100%;
+    height: 300px;
+}
+.infoimg{
+    text-align: center;
+}
