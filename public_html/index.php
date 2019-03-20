@@ -11,154 +11,94 @@
 
     <!-- Using banner from banner.html -->
 
-
-
-    <!-- Using navbar from navbar.html -->
-    <div class="main container-fluid">
+    <div class="bg-dark">
         <?php require_once "../templates/banner.html"; ?>
-        <?php require_once "../templates/navbar.html"; ?>
-
-        <p style="width:10px;">&nbsp;</p>
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Card title<i class="fab fa-google"></i></h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-                <h4 class="card-title">Card title</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-            </div>
+        <div class="container">
+            <?php require_once "../templates/navbar.html"; ?>
         </div>
     </div>
-    </div>
-    <p style="height: 20px;">&nbsp;</p>
+    <!-- Using navbar from navbar.html -->
+    <div class="backgroundimg">
+        <div class="main container">
 
-    <div class="infoimg container">
-        <div class="row">
 
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="/assets/Trust.png" alt="Trust">
-                    <div class="card-body"> Trust </div>
+            <p style="height: 20px;">&nbsp;</p>
+            <h3 class="sectiontitle container text" style="color:white">Seneste nyheder</h3>
+            <p style="height: 20px;">&nbsp;</p>
+
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
             </div>
-
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="/assets/Respect.png" alt="Respect">
-                    <div class="card-body"> Respect </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="/assets/SecureConnection.png" alt="Secure Connection">
-                    <div class="card-body"> Secure Connection </div>
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card">
-                    <img src="/assets/Growth.png" alt="Growth">
-                    <div class="card-body"> Growth </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    </div>
-    <p style="height:30px;">&nbsp;</p>
-    <!-- Footer -->
-    <footer class="page-footer font-small bg-dark text-white">
-
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-
-            <!-- Grid row -->
-            <div class="row">
-
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-5 mt-3">
-
-                    <!-- Content -->
-                    <h5 class="text-uppercase">Footer Content</h5>
-                    <p>Here you can use rows and columns here to organize your footer content.</p>
-
-                </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-                    <p style="height:10px;">&nbsp;</p>
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-                    <p style="height:10px;">&nbsp;</p>
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Links</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="#!">Link 1</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 2</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 3</a>
-                        </li>
-                        <li>
-                            <a href="#!">Link 4</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
-            </div>
-            <!-- Grid row -->
 
         </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+            <p style="height: 20px; margin: 0">&nbsp;</p>
         </div>
-        <!-- Copyright -->
+    </div>
+<div class="core-wrapper">
+    <div class="container">
+        <p style="height: 20px;">&nbsp;</p>
+        <h3 class="sectiontitle container text">Kerneværdier</h3>
+        <p style="height: 20px;">&nbsp;</p>
 
-    </footer>
-    <!-- Footer -->
+        <hr>
+        <div class="media">
+            <img class="d-flex align-self-start mr-3" src="/assets/Trust.png" alt="Generic placeholder image">
+            <div class="media-body">
+                <h5 class="mt-0">Tillid</h5>
+                <p>Tillid eller tiltro er en følelse og er dét fænomen, som viser sig ved, at et individ har en forventning om eller tro på, at et andet individ er pålideligt. På græsk og oldnordisk er ordet for (til)lid det samme som (til)tro.</p>
+                <p>Ifølge K.E. Løgstrup er menneskers tillid medfødt, hvorimod mistillid læres under opvæksten.</p>
+            </div>
+        </div>
+
+        <hr>
+        <div class="media">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">Respekt</h5>
+                Ære er et antropologisk og sociologisk begreb som bruges af mange mennesker og kulturer om en persons, families eller folkegruppes oplevede værdi. Beslægtede begreber er hæder, anseelse, respekt og værdighed.
+            </div>
+            <img class="d-flex ml-3" src="/assets/Respect.png" alt="Generic placeholder image">
+        </div>
+
+        <hr>
+        <div class="media">
+            <img class="d-flex align-self-start mr-3" src="/assets/SecureConnection.png" alt="Generic placeholder image">
+            <div class="media-body">
+                <h5 class="mt-0 mb">Sikkerhed</h5>
+                It-sikkerhed (også kendt som cyber-sikkerhed eller computersikkerhed) er informationssikkerhed anvendt på computere og datanet (computernetværk).
+                <p>Området dækker alle processerne og mekanismerne med hvilken computer-baseret udstyr, information og services er beskyttet mod utilsigtet eller uautoriseret adgang, ændring eller destruktion. It-sikkerhed omfatter også beskyttelse mod uplanlagte hændelser og naturkatastrofer.</p>
+            </div>
+        </div>
+        <hr>
+        <!--<p style="height: 20px;">&nbsp;</p>-->
+        <div class="media">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">Vækst</h5>
+                Økonomisk vækst er egentlig et upræcist begreb, idet det kan betegne vækst i flere forskellige økonomiske størrelser. Normalt bruges begrebet dog i betydningen ”vækst i realt BNP”, altså i bruttonationalproduktet i faste priser. Et lands årlige økonomiske vækst forstået på denne måde udtrykker dermed den procentvise stigning i landets produktion, når der renses for inflation.
+            </div>
+            <img class="d-flex ml-3" src="/assets/Growth.png" alt="Generic placeholder image">
+        </div>
+    </div>
+    <p style="height: 50px; margin:0">&nbsp;</p>
+</div>
+    </div>
+
+    <?php require_once "../templates/footer.html"; ?>
 
     </body>
 </html>
