@@ -18,7 +18,8 @@
             <?php require_once "../templates/navbar.html"; ?>
         </div>
     </div>
-
+<div class="contactmain">
+    <h2>&nbsp;</h2>
     <h2 class="h1-responsive font-weight-bold text-center my-4">Kontakt os</h2>
     <!--Section description-->
     <p class="text-center w-responsive mx-auto mb-5">Hvis du har nogle spørgsmål så tøv ikke med at kontakte os det
@@ -61,8 +62,8 @@
         </div>
     </div>
 
-    <p style="height: 50px">&nbsp;</p>
-
+    <p style="height: 50px; margin: 0">&nbsp;</p>
+</div>
     <?php require_once "../templates/footer.html"; ?>
 
     </body>
