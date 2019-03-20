@@ -4,12 +4,12 @@
         <meta charset="UTF-8">
         <title>Hjem</title>
         <link rel="stylesheet" href="libs/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="libs/font-awesome/css/all.css">
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
 
     <!-- Using banner from banner.html -->
-
 
 
 
@@ -22,7 +22,7 @@
     <div class="card-deck">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Card title</h4>
+                <h4 class="card-title">Card title<i class="fab fa-google"></i></h4>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             </div>
         </div>
