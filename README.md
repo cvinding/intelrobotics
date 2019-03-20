@@ -1,5 +1,5 @@
 # intelrobotics
-External frontend website for an Information Technology project
+External frontend website for an Information Technology project 
 This website is using our API at https://github.com/czvr0/api-intelrobotics
 
 # Libraries
