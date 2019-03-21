@@ -1,3 +1,10 @@
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+
 .banner{
     width: 100%;
 }
@@ -27,4 +34,25 @@
 }
 .contactmain{
     background-color: #a2a3a3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.aboutbox{
+    background-color: white;
+}
+.contactbox{
+    background-color: White;
+    border:1px solid black;
+    border-radius: 5px;
+    padding: 25px;
+}
+.productsmain{
+    min-height: 500px;
+}
+.products{
+    margin: 5px;
+}
+.productimg{
+    width: 215px;
+    height: 150px;
 }

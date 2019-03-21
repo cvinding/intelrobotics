@@ -26,7 +26,7 @@
             <h3 class="sectiontitle container text" style="color:white">Seneste nyheder</h3>
             <p style="height: 20px;">&nbsp;</p>
 
-        <div class="card-deck">
+        <div class="card-deck" id="news-output">
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">Card title</h4>
@@ -51,8 +51,9 @@
         </div>
     </div>
 <div class="core-wrapper">
-    <div class="container">
-        <p style="height: 20px;">&nbsp;</p>
+    <p style="height: 20px;">&nbsp;</p>
+    <div class="aboutbox container" style="border:1px solid black; border-radius: 5px; padding: 25px">
+
         <h3 class="sectiontitle container text">Kerneværdier</h3>
         <p style="height: 20px;">&nbsp;</p>
 
@@ -105,3 +106,5 @@
 <script src="libs/jquery/jquery-3.3.1.min.js"></script>
 <script src="libs/popper/popper.min.js"></script>
 <script src="libs/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+<script src="/js/helper.js"></script>
+<script src="/js/index.js"></script>
